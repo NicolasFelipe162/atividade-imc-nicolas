@@ -10,7 +10,7 @@ botaoAdicionar.addEventListener('click', function (event) {
 
     var erros = validaPaciente(paciente);
     
-    if (erros.lenght > 0){
+    if (erros.length > 0){
       exibeErros(erros);
       return;
     }
