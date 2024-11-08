@@ -139,3 +139,8 @@ button:disabled {
 .dado-invalido {
     background-color: rgba(255, 0, 0, .5);
 }
+
+#mensagens-erro{
+  color: red;
+  font-size: 20px;
+}
